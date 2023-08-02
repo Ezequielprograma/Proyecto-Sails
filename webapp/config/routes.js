@@ -21,7 +21,8 @@ module.exports.routes = {
 
   '/': { view: 'pages/homepage' },
 
-
+  '/acerca-de': {view: 'pages/acerca_de'},
+  'GET /contacto': { action: 'view-contacto' },
   /***************************************************************************
   *                                                                          *
   * More custom routes here...                                               *
