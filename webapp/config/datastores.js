@@ -53,7 +53,7 @@ module.exports.datastores = {
 
 
     adapter: require('sails-postgresql'),
-    url: 'postgresql://user_pgsql:123456@localhost:5432/mi_empresa',
+    url: 'postgresql://user_pgsql:123456@localhost:5432/tienda',
 
   },
 
